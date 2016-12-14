@@ -1,0 +1,22 @@
+{
+    "regressions": [
+        [
+            "benchmarks.TimeChecks.time_has_all_monotonic_neurites", 
+            "graphs/arch-x86_64/branch-master/cpu-Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz/machine-bluebrain095/os-Linux 4.4.0-36-generic/python-2.7/ram-16357008/benchmarks.TimeChecks.time_has_all_monotonic_neurites.json", 
+            {}, 
+            null, 
+            [
+                [
+                    [
+                        null, 
+                        1707, 
+                        0.00018127242359999997, 
+                        0.00036009185350000016
+                    ]
+                ], 
+                0.00036009185350000016, 
+                0.00018127242359999997
+            ]
+        ]
+    ]
+}

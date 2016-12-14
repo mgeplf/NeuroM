@@ -1,0 +1,506 @@
+[
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 1.100375898245613e-06, 
+        "last_rev": 1719, 
+        "last_value": 4.1696347199999994e-05, 
+        "name": "benchmarks.TimeChecks.time_has_all_finite_radius_neurites", 
+        "pretty_name": "benchmarks.TimeChecks.time_has_all_finite_radius_neurites", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": [
+            null, 
+            1707
+        ], 
+        "idx": null, 
+        "last_err": 4.127570499999996e-06, 
+        "last_rev": 1719, 
+        "last_value": 0.00036009185350000016, 
+        "name": "benchmarks.TimeChecks.time_has_all_monotonic_neurites", 
+        "pretty_name": "benchmarks.TimeChecks.time_has_all_monotonic_neurites", 
+        "prev_value": 0.00018127242359999997
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 5.4181374035087545e-05, 
+        "last_rev": 1719, 
+        "last_value": 0.0021618536200000006, 
+        "name": "benchmarks.TimeChecks.time_has_all_nonzero_neurite_radii", 
+        "pretty_name": "benchmarks.TimeChecks.time_has_all_nonzero_neurite_radii", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 0.0002758197885964917, 
+        "last_rev": 1719, 
+        "last_value": 0.008345068649999999, 
+        "name": "benchmarks.TimeChecks.time_has_all_nonzero_section_lengths", 
+        "pretty_name": "benchmarks.TimeChecks.time_has_all_nonzero_section_lengths", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 0.0004549441738596496, 
+        "last_rev": 1719, 
+        "last_value": 0.012268724249999998, 
+        "name": "benchmarks.TimeChecks.time_has_all_nonzero_segment_lengths", 
+        "pretty_name": "benchmarks.TimeChecks.time_has_all_nonzero_segment_lengths", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 9.59949419298246e-08, 
+        "last_rev": 1719, 
+        "last_value": 2.9049821900000005e-06, 
+        "name": "benchmarks.TimeChecks.time_has_apical_dendrite", 
+        "pretty_name": "benchmarks.TimeChecks.time_has_apical_dendrite", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 4.2577180543859675e-08, 
+        "last_rev": 1719, 
+        "last_value": 1.4473782650000001e-06, 
+        "name": "benchmarks.TimeChecks.time_has_axon", 
+        "pretty_name": "benchmarks.TimeChecks.time_has_axon", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 6.574528631578977e-08, 
+        "last_rev": 1719, 
+        "last_value": 1.7492258890000001e-06, 
+        "name": "benchmarks.TimeChecks.time_has_basal_dendrite", 
+        "pretty_name": "benchmarks.TimeChecks.time_has_basal_dendrite", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 4.793982608771929e-07, 
+        "last_rev": 1719, 
+        "last_value": 1.9796169000000007e-05, 
+        "name": "benchmarks.TimeChecks.time_has_increasing_ids", 
+        "pretty_name": "benchmarks.TimeChecks.time_has_increasing_ids", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 0.00011242630191228055, 
+        "last_rev": 1719, 
+        "last_value": 0.0017449326009999994, 
+        "name": "benchmarks.TimeChecks.time_has_no_fat_ends", 
+        "pretty_name": "benchmarks.TimeChecks.time_has_no_fat_ends", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 0.0002912994608771919, 
+        "last_rev": 1719, 
+        "last_value": 0.013045544570000001, 
+        "name": "benchmarks.TimeChecks.time_has_no_flat_neurites", 
+        "pretty_name": "benchmarks.TimeChecks.time_has_no_flat_neurites", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 0.00014424029701754426, 
+        "last_rev": 1719, 
+        "last_value": 0.0036016282600000006, 
+        "name": "benchmarks.TimeChecks.time_has_no_jumps", 
+        "pretty_name": "benchmarks.TimeChecks.time_has_no_jumps", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 1.095046510526317e-08, 
+        "last_rev": 1719, 
+        "last_value": 6.447319499999999e-07, 
+        "name": "benchmarks.TimeChecks.time_has_nonzero_soma_radius", 
+        "pretty_name": "benchmarks.TimeChecks.time_has_nonzero_soma_radius", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 5.10562018596492e-07, 
+        "last_rev": 1719, 
+        "last_value": 1.9800992699999985e-05, 
+        "name": "benchmarks.TimeChecks.time_has_sequential_ids", 
+        "pretty_name": "benchmarks.TimeChecks.time_has_sequential_ids", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 1.433948480701758e-07, 
+        "last_rev": 1719, 
+        "last_value": 1.1367561869999998e-05, 
+        "name": "benchmarks.TimeChecks.time_has_soma_points", 
+        "pretty_name": "benchmarks.TimeChecks.time_has_soma_points", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": [
+            null, 
+            1708
+        ], 
+        "idx": null, 
+        "last_err": 4.1005043444444505e-05, 
+        "last_rev": 1719, 
+        "last_value": 0.001178506664, 
+        "name": "benchmarks.TimeChecks.time_has_valid_neurites", 
+        "pretty_name": "benchmarks.TimeChecks.time_has_valid_neurites", 
+        "prev_value": 0.0030986762299999994
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 2.6228040964912263e-06, 
+        "last_rev": 1719, 
+        "last_value": 8.667756840000001e-05, 
+        "name": "benchmarks.TimeChecks.time_has_valid_soma", 
+        "pretty_name": "benchmarks.TimeChecks.time_has_valid_soma", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 3.316963140350893e-07, 
+        "last_rev": 1719, 
+        "last_value": 2.4291696600000002e-05, 
+        "name": "benchmarks.TimeChecks.time_is_single_tree", 
+        "pretty_name": "benchmarks.TimeChecks.time_is_single_tree", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 2.4672299649122906e-06, 
+        "last_rev": 1719, 
+        "last_value": 0.000362136059, 
+        "name": "benchmarks.TimeChecks.time_no_missing_parents", 
+        "pretty_name": "benchmarks.TimeChecks.time_no_missing_parents", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 0.00029539197771929777, 
+        "last_rev": 1719, 
+        "last_value": 0.007358102250000001, 
+        "name": "benchmarks.TimeFeatures.time_local_bifurcation_angles", 
+        "pretty_name": "benchmarks.TimeFeatures.time_local_bifurcation_angles", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 8.351467964912279e-06, 
+        "last_rev": 1719, 
+        "last_value": 0.000278743069, 
+        "name": "benchmarks.TimeFeatures.time_number_of_bifurcations", 
+        "pretty_name": "benchmarks.TimeFeatures.time_number_of_bifurcations", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 4.241255263157894e-06, 
+        "last_rev": 1719, 
+        "last_value": 0.000279589889, 
+        "name": "benchmarks.TimeFeatures.time_number_of_forking_points", 
+        "pretty_name": "benchmarks.TimeFeatures.time_number_of_forking_points", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 1.8672238877192977e-07, 
+        "last_rev": 1719, 
+        "last_value": 4.2563281299999996e-06, 
+        "name": "benchmarks.TimeFeatures.time_number_of_neurites", 
+        "pretty_name": "benchmarks.TimeFeatures.time_number_of_neurites", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": [
+            1622, 
+            1624
+        ], 
+        "idx": null, 
+        "last_err": 2.863316900000017e-06, 
+        "last_rev": 1719, 
+        "last_value": 0.00017935526999999897, 
+        "name": "benchmarks.TimeFeatures.time_number_of_sections", 
+        "pretty_name": "benchmarks.TimeFeatures.time_number_of_sections", 
+        "prev_value": 0.00017448416759999996
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 2.8146631912280762e-06, 
+        "last_rev": 1719, 
+        "last_value": 0.0001768900996, 
+        "name": "benchmarks.TimeFeatures.time_number_of_sections_per_neurite", 
+        "pretty_name": "benchmarks.TimeFeatures.time_number_of_sections_per_neurite", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 5.240573421052658e-06, 
+        "last_rev": 1719, 
+        "last_value": 0.000210370065, 
+        "name": "benchmarks.TimeFeatures.time_number_of_segments", 
+        "pretty_name": "benchmarks.TimeFeatures.time_number_of_segments", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 3.993364333333326e-06, 
+        "last_rev": 1719, 
+        "last_value": 0.0002801101839999999, 
+        "name": "benchmarks.TimeFeatures.time_number_of_terminations", 
+        "pretty_name": "benchmarks.TimeFeatures.time_number_of_terminations", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 6.374412719298221e-05, 
+        "last_rev": 1719, 
+        "last_value": 0.002203723999999996, 
+        "name": "benchmarks.TimeFeatures.time_partition", 
+        "pretty_name": "benchmarks.TimeFeatures.time_partition", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 0.00037641680964912435, 
+        "last_rev": 1719, 
+        "last_value": 0.01291677941, 
+        "name": "benchmarks.TimeFeatures.time_principal_direction_extents", 
+        "pretty_name": "benchmarks.TimeFeatures.time_principal_direction_extents", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 0.00019296108017543857, 
+        "last_rev": 1719, 
+        "last_value": 0.0044372065, 
+        "name": "benchmarks.TimeFeatures.time_remote_bifurcation_angles", 
+        "pretty_name": "benchmarks.TimeFeatures.time_remote_bifurcation_angles", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": [
+            1622, 
+            1624
+        ], 
+        "idx": null, 
+        "last_err": 1.6040987162162163e-05, 
+        "last_rev": 1719, 
+        "last_value": 0.00033677614, 
+        "name": "benchmarks.TimeFeatures.time_section_areas", 
+        "pretty_name": "benchmarks.TimeFeatures.time_section_areas", 
+        "prev_value": 0.01476125013
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 2.5473544596491257e-05, 
+        "last_rev": 1719, 
+        "last_value": 0.0009338086099999998, 
+        "name": "benchmarks.TimeFeatures.time_section_branch_orders", 
+        "pretty_name": "benchmarks.TimeFeatures.time_section_branch_orders", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 0.00039304348684210546, 
+        "last_rev": 1719, 
+        "last_value": 0.008234339580000001, 
+        "name": "benchmarks.TimeFeatures.time_section_lengths", 
+        "pretty_name": "benchmarks.TimeFeatures.time_section_lengths", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": [
+            1622, 
+            1624
+        ], 
+        "idx": null, 
+        "last_err": 4.4392913486486436e-05, 
+        "last_rev": 1719, 
+        "last_value": 0.0017507042500000001, 
+        "name": "benchmarks.TimeFeatures.time_section_path_distances", 
+        "pretty_name": "benchmarks.TimeFeatures.time_section_path_distances", 
+        "prev_value": 0.009503467460000001
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 5.053300515789473e-05, 
+        "last_rev": 1719, 
+        "last_value": 0.001327847716, 
+        "name": "benchmarks.TimeFeatures.time_section_radial_distances", 
+        "pretty_name": "benchmarks.TimeFeatures.time_section_radial_distances", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 0.0004267205175438598, 
+        "last_rev": 1719, 
+        "last_value": 0.00963745718, 
+        "name": "benchmarks.TimeFeatures.time_section_tortuosity", 
+        "pretty_name": "benchmarks.TimeFeatures.time_section_tortuosity", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": [
+            1622, 
+            1624
+        ], 
+        "idx": null, 
+        "last_err": 1.574301535135136e-05, 
+        "last_rev": 1719, 
+        "last_value": 0.00033447946399999993, 
+        "name": "benchmarks.TimeFeatures.time_section_volumes", 
+        "pretty_name": "benchmarks.TimeFeatures.time_section_volumes", 
+        "prev_value": 0.017148954555000002
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 0.0001615584417543861, 
+        "last_rev": 1719, 
+        "last_value": 0.006670138750000003, 
+        "name": "benchmarks.TimeFeatures.time_segment_lengths", 
+        "pretty_name": "benchmarks.TimeFeatures.time_segment_lengths", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 0.0038116169614035114, 
+        "last_rev": 1719, 
+        "last_value": 0.0731014745, 
+        "name": "benchmarks.TimeFeatures.time_segment_meander_angles", 
+        "pretty_name": "benchmarks.TimeFeatures.time_segment_meander_angles", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 0.00017446301070175394, 
+        "last_rev": 1719, 
+        "last_value": 0.0038285120400000008, 
+        "name": "benchmarks.TimeFeatures.time_segment_midpoints", 
+        "pretty_name": "benchmarks.TimeFeatures.time_segment_midpoints", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 0.0003238804631578949, 
+        "last_rev": 1719, 
+        "last_value": 0.011166132000000006, 
+        "name": "benchmarks.TimeFeatures.time_segment_radial_distances", 
+        "pretty_name": "benchmarks.TimeFeatures.time_segment_radial_distances", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": [
+            1714, 
+            1718
+        ], 
+        "idx": null, 
+        "last_err": 6.370887999999973e-05, 
+        "last_rev": 1719, 
+        "last_value": 0.0023408107199999993, 
+        "name": "benchmarks.TimeFeatures.time_segment_radii", 
+        "pretty_name": "benchmarks.TimeFeatures.time_segment_radii", 
+        "prev_value": 0.0042914567300000005
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 0.0009740518771929826, 
+        "last_rev": 1719, 
+        "last_value": 0.01609933152, 
+        "name": "benchmarks.TimeFeatures.time_segment_taper_rates", 
+        "pretty_name": "benchmarks.TimeFeatures.time_segment_taper_rates", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 0.00026395155912280687, 
+        "last_rev": 1719, 
+        "last_value": 0.008186694789999999, 
+        "name": "benchmarks.TimeFeatures.time_total_length", 
+        "pretty_name": "benchmarks.TimeFeatures.time_total_length", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": [
+            1622, 
+            1624
+        ], 
+        "idx": null, 
+        "last_err": 1.6705804540540553e-05, 
+        "last_rev": 1719, 
+        "last_value": 0.000310714217, 
+        "name": "benchmarks.TimeFeatures.time_total_length_per_neurite", 
+        "pretty_name": "benchmarks.TimeFeatures.time_total_length_per_neurite", 
+        "prev_value": 0.007930430749999998
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 0.0021014571347368447, 
+        "last_rev": 1719, 
+        "last_value": 0.00666485485, 
+        "name": "benchmarks.TimeLoadMorphology.time_h5", 
+        "pretty_name": "benchmarks.TimeLoadMorphology.time_h5", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 0.002614020596491232, 
+        "last_rev": 1719, 
+        "last_value": 0.0584176291, 
+        "name": "benchmarks.TimeLoadMorphology.time_neurolucida_asc", 
+        "pretty_name": "benchmarks.TimeLoadMorphology.time_neurolucida_asc", 
+        "prev_value": null
+    }, 
+    {
+        "change_rev": null, 
+        "idx": null, 
+        "last_err": 0.00013766523842105265, 
+        "last_rev": 1719, 
+        "last_value": 0.0077358152199999974, 
+        "name": "benchmarks.TimeLoadMorphology.time_swc", 
+        "pretty_name": "benchmarks.TimeLoadMorphology.time_swc", 
+        "prev_value": null
+    }
+]
