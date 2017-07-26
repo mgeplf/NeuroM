@@ -202,13 +202,6 @@ def test_load_neuron_missing_parents_raises():
     utils.load_neuron(MISSING_PARENTS_FILE)
 
 
-# TODO: decide if we want to check for this in fst.
-@nt.nottest
-@nt.raises(RawDataError)
-def test_load_neuron_invalid_id_sequence_raises():
-    utils.load_neuron(INVALID_ID_SEQUENCE_FILE);
-
-
 def test_load_neurons_directory():
     pop = utils.load_neurons(VALID_DATA_PATH)
     nt.assert_equal(len(pop.neurons), 5)
@@ -244,7 +237,7 @@ def assert_items_equal(a, b):
 
 
 def test_load_neuron_mixed_tree_swc():
-    nrn_mix =  utils.load_neuron(os.path.join(SWC_ORD_PATH, 'sample_mixed_tree_sections.swc'))
+    nrn_mix = utils.load_neuron(os.path.join(SWC_ORD_PATH, 'sample_mixed_tree_sections.swc'))
     assert_items_equal(get('number_of_sections_per_neurite', nrn_mix), [5, 3])
 
     assert_items_equal(get('number_of_sections_per_neurite', nrn_mix),
@@ -255,10 +248,13 @@ def test_load_neuron_mixed_tree_swc():
 
     assert_items_equal(get('total_length', nrn_mix),
                        get('total_length', SWC_ORD_REF))
+
+    import ipdb; ipdb.set_trace()  # XXX BREAKPOINT
+    nt.eq_(len(nrn_mix.sections), len(SWC_ORD_REF.sections))
 
 
 def test_load_neuron_section_order_break_swc():
-    nrn_mix =  utils.load_neuron(os.path.join(SWC_ORD_PATH, 'sample_disordered.swc'))
+    nrn_mix = utils.load_neuron(os.path.join(SWC_ORD_PATH, 'sample_disordered.swc'))
 
     assert_items_equal(get('number_of_sections_per_neurite', nrn_mix), [5, 3])
 
@@ -270,6 +266,8 @@ def test_load_neuron_section_order_break_swc():
 
     assert_items_equal(get('total_length', nrn_mix),
                        get('total_length', SWC_ORD_REF))
+
+    nt.eq_(len(nrn_mix.sections), len(SWC_ORD_REF.sections))
 
 
 H5_PATH = os.path.join(DATA_PATH, 'h5', 'v1', 'ordering')
@@ -277,10 +275,12 @@ H5_ORD_REF = utils.load_neuron(os.path.join(H5_PATH, 'sample.h5'))
 
 
 def test_load_neuron_mixed_tree_h5():
-    nrn_mix =  utils.load_neuron(os.path.join(H5_PATH, 'sample_mixed_tree_sections.h5'))
+    nrn_mix = utils.load_neuron(os.path.join(H5_PATH, 'sample_mixed_tree_sections.h5'))
     assert_items_equal(get('number_of_sections_per_neurite', nrn_mix), [5, 3])
     assert_items_equal(get('number_of_sections_per_neurite', nrn_mix),
                        get('number_of_sections_per_neurite', H5_ORD_REF))
+
+    nt.eq_(len(nrn_mix.sections), len(H5_ORD_REF.sections))
 
 
 def test_load_h5_trunk_points_regression():
