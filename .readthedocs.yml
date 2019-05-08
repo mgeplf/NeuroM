@@ -1,8 +1,13 @@
-# .readthedocs.yml
-# Read the Docs configuration file
-# See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
+# docs are built automatically by a github webhook:
+# https://github.com/BlueBrain/NeuroM/settings/hooks
+#
+# configuration of the docs is is here:
+# https://readthedocs.org/projects/neurom/
+# One can view the logs, and set properties there.
+#
+# See https://docs.readthedocs.io/en/stable/config-file/v2.html for details on
+# this file
 
-# Required
 version: 2
 
 sphinx:
